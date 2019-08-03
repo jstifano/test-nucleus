@@ -2,10 +2,6 @@ import React from 'react';
 import './Person.css';
 
 const PersonComponent = function(props){
-    const p = props;
-
-    console.log("Propsssss", p);
-
     return (
         <div style={{display: 'flex', justifyContent: 'center', marginTop: 10, cursor: 'pointer'}}>
            <div style={{width: 300, height: 50, display: 'flex'}}>
