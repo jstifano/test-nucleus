@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.flex-container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flex-home-span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flex-back-button{
+    color: white;
+    font-size: 14;
+}
